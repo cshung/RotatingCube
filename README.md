@@ -1,1 +1,1 @@
-Initial Readme
+This is my experimental software 3D rendering engine writing using WPF
