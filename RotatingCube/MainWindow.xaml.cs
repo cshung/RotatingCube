@@ -33,6 +33,7 @@
             {
                 Original = new TransformModel
                 {
+                    /*
                     Original = new CubeModel(5, "x")
                     {
                         Front = Colors.Blue,
@@ -42,6 +43,8 @@
                         Left = Colors.Yellow,
                         Right = Colors.Brown,
                     },
+                    */
+                    Original = new TetrahedronModel(5),
                     Transform = new XYRotationTransform { Angle = angle / 100.0 }
                 },
                 Transform = new XZRotationTransform { Angle = angle / 100.0 }
